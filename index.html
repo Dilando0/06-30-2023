@@ -1,0 +1,171 @@
+<html>
+<head>
+    <title>To the Person i love</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kaushan+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+<section id="banner">
+    <div class="banner-text">
+        <h1>To the person i love</h1>
+        <p>Chloe Rose Sia Quijada</p>
+        <div class="banner-btn">
+            <a href="#Message"><span></span>Find Out</a>
+            <a href="#"><span></span>Read More</a>
+        </div>
+    </div>
+
+</section>
+<div id="sideNav">
+    <nav>
+    <ul>
+        <li><a href="#banner">HOME</a></li>
+        <li><a href="#Message">MESSAGE</a></li> 
+        <li><a href="#pictures">PICTURES</a></li> 
+        <li><a href="https://drive.google.com/drive/u/0/folders/1L7-FIKiGEZrp2RoKAw3sNKaBC2A4dgx6">G DRIVE</a></li> 
+        <li><a href="#Goodbye">GOODBYE</a></li>     
+    </ul>
+    </nav>
+</div>
+<div id="menuBtn">
+    <img src="menu.png" id="menu"> 
+</div>
+
+<!--Message-->
+
+<section id="Message">
+    <div class="title-text">
+        <h1>To the person who owns my heart</h1>
+        <p>Chloe Rose Sia Quijada</p>
+    </div>
+    <div class="feature-box">
+        <div class="features">
+            <h1>Clowichi</h1>
+            <div class="features-desc">
+                <div class="feature-icon">
+                    <div class="feature-text">
+                        <p>Remember when i always say that im never gonna fall for someone again? well i never thought that i would fall again and for that someone i fell for you , i even tried to help you get with the people you like but I always failed sadly HAHAHA i don't have that much to say but thank you for being part of my life. I am very grateful to meet you. You saved me from a feeling that caused me great pain being around you makes me feel alive. I'm sorry if i ever did something that offended you or hurt you and please understand that loving you was my choice it may feel like i don't like you since im not making any moves but i do like you a lot i just don't want you to feel uncomfortable around me if you ever need me ill be here waiting for you. You are almost part of every good memory i have i wish you the best of luck in finding the man you're looking for and my love for you will always grow quietly even if it remains unspoken. 
+                            I wish you the best always.
+                                                                                                                                                                                                     </p>
+                        <p>-Dilan</p>                                                                                                                                                                             
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="features-video">
+            <video autoplay muted loop id="bgvideo">
+                <source src="Chloe vid.mp4" type="video/mp4">
+
+            </video>
+
+        </div>
+    </div>
+</section>
+
+<!--Pictures-->
+
+<section id="pictures">
+    <section id="pictures">
+        <div class="title-text">
+            <p>Pictures</p>
+            <h1>Of You</h1>
+        </div>
+        <div class="service-box">
+            <div class="single-service">
+                <img src="October 4.png">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>October 4, 2022</h3>
+                    <hr>
+                
+                </div>
+            </div>
+            <div class="single-service">
+                <img src="april 6.png">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>April 6, 2023</h3>
+                    <hr>
+                   
+                </div>
+            </div>
+            <div class="single-service">
+                <img src="june 7.png">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>June 7, 2023</h3>
+                    <hr>
+                   
+                </div>
+            </div>
+            <div class="single-service">
+                <img src="march 23 2022.png">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>March 23, 2023</h3>
+                    <hr>
+                    
+                </div>
+            </div>
+        
+        </div>
+   
+
+
+</section>
+
+<!-- Goodbye  -->
+
+<section id="Goodbye">
+    <div class="title-text">
+        <p>Goodbye Eijot :D</p>
+        <h1>Congratulations on moving up! :D</h1>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script>
+        var menuBtn = document.getElementById("menuBtn")
+        var sieNav = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
+        
+        sideNav.style.right = "-250px";
+        
+        menuBtn.onclick = function() {
+            if(sideNav.style.right == "-250px") {
+                sideNav.style.right = "0";
+                menu.src = "img/close.png";
+            }
+            else{
+                sideNav.style.right = "-250px";
+                menu.src = "img/menu.png";
+            }
+        }
+        
+        
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 1000,
+            speedAsDuration: true
+        });
+        
+        </script>
+
+
+
+</body>
+
+
+
+
+
+</html>
